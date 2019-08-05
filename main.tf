@@ -6,7 +6,7 @@ module "gitbucket_repo_module" {
 
 module "tfe_workspace_module" {
   source  = "app.terraform.io/SpecialCustomer/tfe-workspace-module/specialcustomer"
-  version = "0.2.1"
+  version = "0.2.2"
 
   enable_aws = var.enable_aws
   enable_azure = var.enable_azure
